@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Никита Амелин</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(45deg, #1f3c6e, #2c3e50);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: #3498db;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .contact-info a:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        .content p, .content ul {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .content ul {
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 10px;
+        }
+        .content li strong {
+            color: #34495e;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ecf0f1;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+        .contact-info a {
+            display: inline-flex;
+            align-items: center;
+        }
+        .icon-email {
+            background: url('https://img.icons8.com/ios-filled/50/ffffff/email.png') no-repeat center;
+            background-size: 20px;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .icon-telegram {
+            background: url('https://img.icons8.com/ios-filled/50/ffffff/telegram-app.png') no-repeat center;
+            background-size: 20px;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .icon-habr {
+            background: url('https://img.icons8.com/ios-filled/50/ffffff/reading.png') no-repeat center;
+            background-size: 20px;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        @media (max-width: 768px) {
+            .content p, .content ul {
+                font-size: 0.9rem;
+            }
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Резюме Никита Амелин</h1>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:niks.amelin@gmail.com"><span class="icon-email"></span>niks.amelin@gmail.com</a></p>
+            <p>Телеграм: <a href="https://t.me/n1katun" target="_blank"><span class="icon-telegram"></span>@n1katun</a></p>
+            <p>Habr: <a href="https://habr.com/ru/users/Nikuson/" target="_blank"><span class="icon-habr"></span>Личный Блог</a></p>
+        </div>
+    </header>
+
+    <section>
+        <h2 class="section-title">Цель</h2>
+        <div class="content">
+            <p>Стремлюсь к должности ML Engineer, чтобы применить свои знания в машинном обучении для разработки и оптимизации эффективных моделей и алгоритмов.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Ключевые навыки</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Языки программирования:</strong> Python, C++</li>
+                <li><strong>Машинное обучение:</strong> PyTorch, TensorFlow, Transformers, Diffusers</li>
+                <li><strong>Анализ данных:</strong> NumPy, Pandas, SciPy, Matplotlib</li>
+                <li><strong>Компьютерное зрение:</strong> OpenCV, Librosa</li>
+                <li><strong>Разработка и инфраструктура:</strong> Git, Docker, Linux</li>
+                <li><strong>Другие:</strong> GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Опыт работы</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Futuroshik — ML Engineer</strong><br>
+                    Разработка и внедрение моделей машинного обучения (Transformers)<br>
+                    Работа с библиотеками и фреймворками, такими как PyTorch и Transformers.<br>
+                    Оптимизация существующих моделей, улучшение их точности и скорости работы.
+                </li>
+                <li><strong>Мэрия Москвы — Разработчик интерфейса Computer Vision для ВКС</strong><br>
+                    Разработка интерфейсов и алгоритмов для применения технологий компьютерного зрения в системах видеоконференцсвязи.<br>
+                    Оптимизация распознавания объектов в реальном времени, использование OpenCV и других библиотек для создания стабильных решений.
+                </li>
+                <li><strong>Ростелеком — Преподаватель курса "Нейросети. Продвинутый"</strong><br>
+                    Преподавание продвинутых тем нейросетевого обучения, включая практическое применение PyTorch и TensorFlow.<br>
+                    Разработка учебных материалов
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Образование</h2>
+        <div class="content">
+            <p><strong>ОГУ</strong><br>Факультет прикладной информатики</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Дополнительные навыки</h2>
+        <div class="content">
+            <ul>
+                <li>Опыт работы с контейнерами Docker, управление версиями с использованием Git.</li>
+                <li>Знание работы в Linux-среде, эффективное использование командной строки.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>2025 © Никита Амелин</p>
+    </footer>
+</body>
+</html>
+
+
+
